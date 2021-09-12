@@ -1,1 +1,1 @@
-alert("Alert desde JS")
+alert("Alert desde JS");
