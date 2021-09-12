@@ -3,6 +3,7 @@ p{
 }
 li{
     list-style: none;
+    margin-right: 25px;
 }
 .primer-elemento{
     color: pink;  
@@ -12,4 +13,13 @@ li{
 }
 #primero{
     font-size: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listaMenu{
+    display: flex;
+
 }
