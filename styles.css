@@ -1,3 +1,15 @@
-body{
+p{
+    font-size: 20px;
+}
+li{
+    list-style: none;
+}
+.primer-elemento{
+    color: pink;  
+}
+.ultimo-elemento{
     background: red;
+}
+#primero{
+    font-size: 30px;
 }
