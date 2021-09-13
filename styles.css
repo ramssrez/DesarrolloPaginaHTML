@@ -43,7 +43,7 @@ h2{
     margin-bottom: 40px;
 }
 a{
-    font-size: 14px;
+    font-size: 15px;
     padding: 20px;
     background:#5cb8ff;
     padding: 20px 30px 20px 30px;
@@ -51,11 +51,32 @@ a{
 }
 header{
     background: url(image/fondo.jpg);
-    height: 100vh;
+    height:100vh;
     background-size: cover;
 }
 .contenedor{
     max-width: 1280px;
     width: 90%;
     margin: auto;
+}
+/*Arranca Sección sobre mi */
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+.contenedor-sobremi{
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor-parrafo-boton{
+    width: 42%;
+}
+.contenedor-parrafo-boton p{
+    font-size: 18px;
+}
+.contenedor-parrafo-boton a{
+    margin-top: 30px;
+    display: inline-block;
 }
