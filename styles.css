@@ -69,6 +69,7 @@ h3{
 }
 .contenedor-parrafo-boton p{
     font-size: 18px;
+    text-align: justify;
 }
 .contenedor-parrafo-boton a{
     margin-top: 30px;
@@ -114,4 +115,19 @@ span{
 }
 .owl-nav{
     text-align: center;
+}
+.contenedor-porque{
+    display: flex;
+    text-align: center;
+}
+.contenedor-porque h4{
+    margin: 0;
+    font-size: 20px;
+}
+.contenedor-porque p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.porque-singular{
+
 }
