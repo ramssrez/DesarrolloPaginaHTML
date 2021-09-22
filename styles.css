@@ -78,3 +78,29 @@ h3{
 .img-me{
     width: 30%;
 }
+.contenedor-servicios{
+    display: flex;
+    /* Uso de la propiedad flex-wrap que pone solo ciertos elementos en el html*/
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servicio{
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 1rem;
+    margin-bottom: 40px;
+    color: white;
+    text-align: justify;
+}
+.violeta{
+    background-color:#5055df ;
+}
+.celeste{
+    background-color: #40a8fa;
+}
+.servicio h4{
+    font-size: 30px;
+}
+.servicio img{
+    float:right; 
+}
