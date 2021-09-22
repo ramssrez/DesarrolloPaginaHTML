@@ -92,6 +92,10 @@ h3{
     color: white;
     text-align: justify;
 }
+.servicio p{
+    height: 200px;
+    font-size: 18px;
+}
 .violeta{
     background-color:#5055df ;
 }
