@@ -132,3 +132,40 @@ span{
 .porque-singular{
     width: 28%;
 }
+#blog-section{
+    background: #F9FAFC;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contenedor-blog{
+    display: flex;
+    justify-content: space-around;
+}
+.blog{
+    width: 30%;
+    /* Muestra la sombra de un elemetno con cuatro parametros */
+    box-shadow: 1px 1px 14px #ccc;
+
+}
+#blog-section img{
+    width: 100%;
+}
+#blog-section h4{
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;;
+}
+#blog-section p{
+    color: #5A6169;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    text-align: justify;
+    margin: 0;
+}
+#blog-section a{
+    display: inline-block;
+    margin-left: 20px;
+    margin: 20px;
+}
+
