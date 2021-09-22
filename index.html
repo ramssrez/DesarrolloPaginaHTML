@@ -104,13 +104,11 @@
     <section>
         <h3>Lorem Trabajos</h3>
         <div class="owl-carousel">
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
-            <div> Your Content </div>
+            <div><img src="image/foto1.jpg" alt=""></div>
+            <div><img src="image/foto2.jpg" alt=""></div>
+            <div><img src="image/foto3.jpg" alt=""></div>
+            <div><img src="image/foto4.jpg" alt=""></div>
+            <div><img src="image/foto5.jpg" alt=""></div>
           </div>
     </section>
 
@@ -118,9 +116,22 @@
     <script src="owlcarousel/jquery.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script>
-        $(document).ready(function(){
-        $(".owl-carousel").owlCarousel();
-        });
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                   items:3
+                },
+                1000:{
+                    items:4
+                }
+            }
+        })
     </script>
 </body>
 

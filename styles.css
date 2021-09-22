@@ -108,3 +108,10 @@ h3{
 .servicio img{
     float:right; 
 }
+span{
+    font-size: 80px;
+    color: blue;
+}
+.owl-nav{
+    text-align: center;
+}
