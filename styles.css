@@ -119,6 +119,7 @@ span{
 .contenedor-porque{
     display: flex;
     text-align: center;
+    justify-content: space-around;
 }
 .contenedor-porque h4{
     margin: 0;
@@ -129,5 +130,5 @@ span{
     line-height: 26px;
 }
 .porque-singular{
-
+    width: 28%;
 }
