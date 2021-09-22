@@ -78,5 +78,9 @@ h3{
 }
 .contenedor-parrafo-boton a{
     margin-top: 30px;
+    /* Propiedades de bloque a la etiqueta a*/
     display: inline-block;
+}
+.img-me{
+    width: 30%;
 }
