@@ -168,4 +168,24 @@ span{
     margin-left: 20px;
     margin: 20px;
 }
-
+#esperas-seccion{
+    background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
+    text-align: center;
+    padding:50px 0 50px 0;
+}
+#esperas-seccion h3{
+    font-size: 23px;
+    color: white;
+    margin-bottom: 40px;
+}
+#esperas-seccion a{
+    padding: 15px 55px 15px 55px;
+    transition: 1s;
+}
+/*  Cuando el mouse pase encima del boton */
+#esperas-seccion a:hover{
+    color: black;
+    transition: 1s;
+    display: inline-block;
+    transform: scale(1.4);
+}
