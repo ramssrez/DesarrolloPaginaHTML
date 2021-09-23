@@ -189,3 +189,10 @@ span{
     display: inline-block;
     transform: scale(1.4);
 }
+#whats a{
+    background: none;
+    position: fixed;
+    /* Estos elementos solo funcionan cuando se tiene fixed */
+    top: 85%;
+    right: 15px;
+}
