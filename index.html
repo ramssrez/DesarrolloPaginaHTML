@@ -28,6 +28,7 @@
         <div class="contenedor">
             <div class="menu">
                 <p>Raúl Ramírez Pérez</p>
+                <img src="image/menu.png" class="menu-icon">
                 <nav>
                     <ul class="listaMenu">
                         <li>Lorem</li>
@@ -192,6 +193,10 @@
                 }
             }
         })
+        
+        $(".menu-icon").click(function(){
+            $("header nav").slideToggle();
+        });
     </script>
 </body>
 
