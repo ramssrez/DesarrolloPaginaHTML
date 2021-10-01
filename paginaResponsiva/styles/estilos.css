@@ -1,0 +1,43 @@
+@import url(`https://fonts.googleapis.com/css2?family=Nunito:wgjt@200;300;400;600;700&dispaly=swap`);
+
+:root{
+    --green:#27ae60;
+    --black:#192a56;
+    --light-colo:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    /* Transforma las primera palabras en mayusculas */
+    text-transform: capitalize;
+    /* Muestra una transición del menú */
+    transition: all .3s linear;
+}
+
+html{
+    /* La transición permite reducir el tamaño de la fuente */
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    /* Forza que el elemento se encuentre en la posición designada */
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    justify-content: space-between;
+    z-index: var(--box-shadow);
+}
