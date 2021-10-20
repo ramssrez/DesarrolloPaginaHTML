@@ -139,7 +139,7 @@ span{
 .porque-singular{
     width: 28%;
 }
-#blog-section{
+#sectionBlog{
     background: #F9FAFC;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -154,15 +154,15 @@ span{
     box-shadow: 1px 1px 14px #ccc;
 
 }
-#blog-section img{
+#sectionBlog img{
     width: 100%;
 }
-#blog-section h4{
+#sectionBlog h4{
     font-size: 23px;
     margin: 0;
     padding: 20px;;
 }
-#blog-section p{
+#sectionBlog p{
     color: #5A6169;
     line-height: 24px;
     font-size: 16px;
@@ -170,27 +170,27 @@ span{
     text-align: justify;
     margin: 0;
 }
-#blog-section a{
+#sectionBlog a{
     display: inline-block;
     margin-left: 20px;
     margin: 20px;
 }
-#esperas-seccion{
+#sectionWaiting{
     background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
     text-align: center;
     padding:50px 0 50px 0;
 }
-#esperas-seccion h3{
+#sectionWaiting h3{
     font-size: 23px;
     color: white;
     margin-bottom: 40px;
 }
-#esperas-seccion a{
+#sectionWaiting a{
     padding: 15px 55px 15px 55px;
     transition: 1s;
 }
 /*  Cuando el mouse pase encima del boton */
-#esperas-seccion a:hover{
+#sectionWaiting a:hover{
     color: black;
     transition: 1s;
     display: inline-block;
