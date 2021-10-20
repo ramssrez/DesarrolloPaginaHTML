@@ -20,6 +20,10 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 30px;
+}
+.menu p{
+    font-size: 30px; 
 }
 .listaMenu{
     display: flex;
@@ -36,7 +40,7 @@ h2{
     font-size: 25px;
     margin-bottom: 40px;
 }
-a{
+.botonStyle{
     font-size: 15px;
     padding: 20px;
     background:#5cb8ff;
@@ -195,4 +199,27 @@ span{
     /* Estos elementos solo funcionan cuando se tiene fixed */
     top: 85%;
     right: 15px;
+}
+.menu-icon{
+    display: none;
+}
+@media(max-width:480px){
+    /* Se va aplicar cuando el maximo ancho de la pantalla definida */
+    nav{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: #5cb8ff;
+        width: 100%;
+        display: none;
+    }
+    nav .listaMenu{
+        flex-direction: column;
+        display: flex;
+    }
+    .menu-icon{
+        display: block;
+        width: 25px;
+    }
+
 }
