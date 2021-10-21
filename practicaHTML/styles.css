@@ -136,7 +136,7 @@ span{
 .porque-singular{
     width: 28%;
 }
-#blog-section{
+#sectionBlog{
     background: #F9FAFC;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -151,15 +151,15 @@ span{
     box-shadow: 1px 1px 14px #ccc;
 
 }
-#blog-section img{
+#sectionBlog img{
     width: 100%;
 }
-#blog-section h4{
+#sectionBlog h4{
     font-size: 23px;
     margin: 0;
     padding: 20px;;
 }
-#blog-section p{
+#sectionBlog p{
     color: #5A6169;
     line-height: 24px;
     font-size: 16px;
@@ -167,27 +167,27 @@ span{
     text-align: justify;
     margin: 0;
 }
-#blog-section a{
+#sectionBlog a{
     display: inline-block;
     margin-left: 20px;
     margin: 20px;
 }
-#esperas-seccion{
+#sectionWaiting{
     background: linear-gradient(rgba(84,93,220,.94),rgba(96,171,245,.9));
     text-align: center;
     padding:50px 0 50px 0;
 }
-#esperas-seccion h3{
+#sectionWaiting h3{
     font-size: 23px;
     color: white;
     margin-bottom: 40px;
 }
-#esperas-seccion a{
+#sectionWaiting a{
     padding: 15px 55px 15px 55px;
     transition: 1s;
 }
 /*  Cuando el mouse pase encima del boton */
-#esperas-seccion a:hover{
+#sectionWaiting a:hover{
     color: black;
     transition: 1s;
     display: inline-block;
@@ -203,11 +203,11 @@ span{
 .menu-icon{
     display: none;
 }
-@media(max-width:480px){
+@media(max-width:800px){
     /* Se va aplicar cuando el maximo ancho de la pantalla definida */
     nav{
         position: absolute;
-        top: 50px;
+        top: 70px;
         left: 0;
         background: #5cb8ff;
         width: 100%;
@@ -221,5 +221,62 @@ span{
         display: block;
         width: 25px;
     }
-
+    .titular{
+        margin-top: 54px;
+    }
+    h1{
+        font-size: 49px;
+    }
+    h2{
+        font-size: 19px;
+    }
+    .contenedor-sobremi{
+        flex-direction: column;
+    }
+    .img-me {
+        width: 90%;
+    }
+    .contenedor-parrafo-boton {
+        width: 80%;
+    }
+    .contenedor-servicios{
+        flex-direction: column;
+    }
+    .servicio {
+        width: 72%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+    h3{
+        font-size: 43px;
+    }
+    .contenedor-porque{
+        flex-direction: column;
+    }
+    .porque-singular{
+        width: 95%;
+    }
+    .contenedor-blog{
+        flex-direction: column;
+    }
+    .blog {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+}
+/*Media para ipad  */
+@media(min-width: 700px) and (max-width:900px){
+    header{
+        height: 53vh;
+    }
+    .img-me {
+        width: 50%;
+    }
+    .servicio {
+        width: 54%;
+    }
+    .blog {
+        width: 62%;
+    }
 }
