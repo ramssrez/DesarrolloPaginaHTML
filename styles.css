@@ -206,7 +206,7 @@ span{
 .menu-icon{
     display: none;
 }
-@media(max-width:400px){
+@media(max-width:800px){
     /* Se va aplicar cuando el maximo ancho de la pantalla definida */
     nav{
         position: absolute;
@@ -266,5 +266,20 @@ span{
         width: 85%;
         margin: auto;
         margin-bottom: 15px;
+    }
+}
+/*Media para ipad  */
+@media(min-width: 700px) and (max-width:900px){
+    header{
+        height: 53vh;
+    }
+    .img-me {
+        width: 50%;
+    }
+    .servicio {
+        width: 54%;
+    }
+    .blog {
+        width: 62%;
     }
 }
